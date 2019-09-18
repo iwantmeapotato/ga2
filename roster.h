@@ -175,50 +175,6 @@ public:
   }
 };
 
-void jm_report(Roster r) {
-  Player *cu = r.head;
-  cout << "\n\tNumber\tMinutes played\n\t" + string(22, '=') + "\n";
-  for (int i = 0; i < 12; i++) {
-    cout << "\t" << cu->number << "\t" << cu->minutes << '\n';
-    cu = cu->next;
-  }
-  cout << '\n';
-  system("pause");
-}
-
-void jam_report(Roster r) {
-  Player *cu = r.head;
-  cout << "\n\tAge\tNumber\tMinutes played\n\t" + string(30, '=') + "\n";
-  for (int i = 0; i < 12; i++) {
-    cout << '\t' << cu->age << '\t' << cu->number << "\t" << cu->minutes << '\n';
-    cu = cu->next;
-  }
-  cout << '\n';
-  system("pause");
-}
-
-void r_report(Roster r) {
-  Player *cu = r.head;
-  cout << "\n\tAge\tNumber\tRating\tMinutes played\n\t" + string(38, '=') + "\n";
-  for (int i = 0; i < 12; i++) {
-    cout << '\t' << cu->age << '\t' << cu->number << '\t' << cu->rating << "\t" << cu->minutes << '\n';
-    cu = cu->next;
-  }
-  cout << '\n';
-  system("pause");
-}
-
-void full_report(Roster r) {
-  Player *cu = r.head;
-  cout << "\n\tAge\tNumber\tRating\tPosition\t\tMinutes played\n\t" + string(62, '=') + "\n";
-  for (int i = 0; i < 12; i++) {
-    cout << '\t' << cu->age << '\t' << cu->number << '\t' << cu->rating << '\t' << cu->pos << "\t\t";  if (cu->pos.length() < 8) cout << '\t'; cout << cu->minutes << '\n';
-    cu = cu->next;
-  }
-  cout << '\n';
-  system("pause");
-}
-
 void make_report(Roster r, int criteria) {
   Player *cu = r.head;
   if (criteria == MINUTES) { r.sort(MINUTES); cout << "\n\tNumber\tMinutes played\n\t" + string(22, '=') + "\n"; } //oops wait this is pythonic
