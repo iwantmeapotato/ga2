@@ -1,6 +1,9 @@
 #include"roster.h"
 using namespace std;
 
+// while (megan);
+// do { seth; }
+
 int main() {
   Roster court(1), bench(0);
   string positions[5] = {"Point Guard", "Shooting Guard", "Small Forward", "Power Forward", "Center"};
