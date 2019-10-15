@@ -1,0 +1,15 @@
+
+	Age	Number	Rating	Position		Minutes played
+	==============================================================
+	23	1	50	Shooting Guard		6
+	27	2	76	Small Forward		17
+	37	3	61	Power Forward		20
+	22	4	78	Center			28
+	21	5	80	Point Guard		22
+	25	6	89	Shooting Guard		27
+	26	7	93	Small Forward		31
+	25	8	77	Power Forward		28
+	32	9	53	Center			20
+	21	10	75	Point Guard		26
+	35	11	63	Shooting Guard		15
+	27	12	45	Small Forward		0

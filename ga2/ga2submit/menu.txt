@@ -1,0 +1,10 @@
+
+     Create game report
+|
+| 1. Jersey, Minutes Played
+| 2. Jersey, Age, Minutes Played
+| 3. Jersey, Age, Rating, Minutes Played
+| 4. Jersey, Age, Rating, Position, Minutes Played
+| 5. Substitution record
+| 6. Done!
+|
